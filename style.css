@@ -1,0 +1,29 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.description {
+  display: none;
+}
+
+/*både title och active för att regeln ska tillämpas.
+Om villkoret uppfylls blir elementet synligt och inkluderas i sidans layout*/
+.title.active + .description {  
+  display: block;
+}
+
+.faq {
+  text-align: center; 
+  padding-top: 5%;    
+  width: 50%;         
+  margin: 0 auto;     
+}
+
+
+.title {
+  background-color: #f9d7bf;
+}
+
+
+
